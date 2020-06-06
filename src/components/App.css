@@ -1,0 +1,129 @@
+.header {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.notconnected {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.connbtn {
+  border-radius: 4px;
+  background-color: #01b600;
+  width: 142px;
+  height: 43px;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+.nonet {
+  background-color: blue;
+}
+
+.connbtndiv {
+  display: flex;
+  justify-content: center;
+}
+
+.connected {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.netinfo {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1rem;
+}
+
+.lblkey {
+  justify-self: end;
+  padding-right: 1rem;
+}
+
+.lblval {
+  padding: 0.1rem;
+  padding-right: 1rem;
+  width: 80%;
+  border-radius: 4px;
+}
+
+.bckbtndiv {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  padding-left: 8rem;
+}
+
+.bckbtn {
+  width: 100%;
+  height: 43px;
+  border-radius: 4px;
+  background-color: #01b600;
+  border: none;
+  color: white;
+}
+
+.networkshead {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  background-color: black;
+  padding: 1rem;
+}
+
+.netlabel {
+  font-size: 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+hr {
+  border-bottom: 1px solid #1f1209;
+  box-shadow: 0 2px 2px -2px #333;
+}
+
+.netconnectbtn {
+  height: 43px;
+  width: 40%;
+  border-radius: 4px;
+  background-color: #01b600;
+  border: none;
+  color: white;
+}
+
+.netconnectbtndiv {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.netconnectbackbtn {
+  height: 43px;
+  width: 40%;
+  border-radius: 4px;
+  background-color: red;
+  border: none;
+  color: white;
+}
+
+.nointlogo {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.ppp {
+  background-color: #baf8ba;
+  height: 100vh;
+}
